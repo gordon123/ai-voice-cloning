@@ -68,7 +68,7 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
     - Some models are downloaded when you first use them.  You'll incur additional downloads during generation and when training (for whisper).  However, once they are finished, you won't ever have to download them again as long as you don't delete them.  They are located in the ```models``` folder of the root.
 
 
-    now ```bash run start.sh``` again <br>
+    If you see this nessage ```Removing weight norm...Loaded vocoder model....Loaded TTS, ready for generation.``` then look up find Gradio link like in this photo <br>
     <img width="1060" alt="Screenshot 2025-02-14 at 19 51 50" src="https://github.com/user-attachments/assets/08029d17-4904-4cc8-ae45-7c013f1ccd69" /> <br>
     you should see something like this ```Running on public URL: https://7f6e62958285392788.gradio.live``` copy this link to browser and test to generate some text
     Have fun!!
