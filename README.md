@@ -28,8 +28,10 @@ Pod setup lool like this <br>
 
 1. Clone the repository
 ```
-git clone https://github.com/JarodMica/ai-voice-cloning.git
+git clone https://github.com/gordon123/ai-voice-cloning.git
 ```
+** this repo I updated only main.py to run on the gradio public all the work go to https://github.com/JarodMica/ai-voice-cloning or his Youtube tutorials below
+
 2. create evenv type
     ```
     python -m venv venv
