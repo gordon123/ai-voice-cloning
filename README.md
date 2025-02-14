@@ -22,9 +22,9 @@ This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) (Linux
 #### Alternative Manual Installation
 
 In runpod choose template <br>
-<img width="446" alt="Screenshot 2025-02-14 at 19 29 08" src="https://github.com/user-attachments/assets/43fe3dcc-72bb-42f8-a423-6edbdf3e6281" />
+<img width="446" alt="Screenshot 2025-02-14 at 19 29 08" src="https://github.com/user-attachments/assets/43fe3dcc-72bb-42f8-a423-6edbdf3e6281" /> <br>
 Pod setup lool like this <br>
-<img width="828" alt="Screenshot 2025-02-14 at 19 40 12" src="https://github.com/user-attachments/assets/605f898b-5d5a-4619-b6fb-5dd3865d7f06" />
+<img width="828" alt="Screenshot 2025-02-14 at 19 40 12" src="https://github.com/user-attachments/assets/605f898b-5d5a-4619-b6fb-5dd3865d7f06" /> <br>
 
 1. Clone the repository
 ```
@@ -54,14 +54,24 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
    and this will start downloading most of the models you'll need.
     - Some models are downloaded when you first use them.  You'll incur additional downloads during generation and when training (for whisper).  However, once they are finished, you won't ever have to download them again as long as you don't delete them.  They are located in the ```models``` folder of the root.
 
-   for sometime it will show this error be, hit Ctrl+ C to exist start.sh
+   for sometime it will show this error , hit Ctrl+ C to exist start.sh
     ```
     import tkinter as tk
     ModuleNotFoundError: No module named 'tkinter'
     ```
-    type
-      
-6. **(Optional)** You can opt to install whisperx for training by running ```setup-whipserx.bat```
+    Ctrl + C to exist then type
+
+    ```
+    apt-get update
+    apt-get install python3.11-tk
+    ```
+    now ```bash run start.sh``` again <br>
+    <img width="1060" alt="Screenshot 2025-02-14 at 19 51 50" src="https://github.com/user-attachments/assets/08029d17-4904-4cc8-ae45-7c013f1ccd69" /> <br>
+    you should see something like this ```Running on public URL: https://7f6e62958285392788.gradio.live``` copy this link to browser and test to generate some text
+    Have fun!!
+
+
+7. **(Optional)** You can opt to install whisperx for training by running ```setup-whipserx.bat```
     - Check out the whisperx github page for more details, but it's much faster for longer audio files.  If you're processing one-by-one with an already split dataset, it doesn't improve speeds that much.
 
 ## Instructions
