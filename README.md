@@ -15,7 +15,7 @@ That being said, some enhancements added compared to the original repo:
 This is a fork of the repo originally located here: https://git.ecker.tech/mrq/ai-voice-cloning.  All of the work that was put into it to incoporate training with DLAS and inference with Tortoise belong to mrq, the author of the original ai-voice-cloning repo.  
 
 ## Setup
-Check my youtube video for instruction https://youtu.be/wuB8GLdS7-4?si=z_Y5KxGpPcLycnB6
+Check my youtube video for instruction https://youtu.be/wuB8GLdS7-4?si=z_Y5KxGpPcLycnB6 <br>
 This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) , if you don't have runpod account create one and add credit minimum 10USD
 
 #### Alternative Manual Installation
