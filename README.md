@@ -64,7 +64,7 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
    ```
    bash start.sh
    ```
-   and this will start downloading most of the models you'll need.
+   For this first time and this will start downloading most of the models you'll need. WAIT WAIT WAIT!!!!! <br>
     - Some models are downloaded when you first use them.  You'll incur additional downloads during generation and when training (for whisper).  However, once they are finished, you won't ever have to download them again as long as you don't delete them.  They are located in the ```models``` folder of the root.
 
 
