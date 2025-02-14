@@ -45,7 +45,7 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
     ```
    bash setup-cuda.sh
     ```
-    file and it will start running through all of the python packages needed
+    It will start running through all of the python packages needed !!! WAIT WAIT WAIT
 
 5. After it finishes, run
    ```
