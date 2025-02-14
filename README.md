@@ -16,7 +16,7 @@ This is a fork of the repo originally located here: https://git.ecker.tech/mrq/a
 
 ## Setup
 
-This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) (Linux only), if you don't have runpod account create one and add credit minimum 10USD
+This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) , if you don't have runpod account create one and add credit minimum 10USD
 
 #### Alternative Manual Installation
 
