@@ -43,7 +43,7 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
    now you should see (venv) at the begining of the command line
 4. run
     ```
-   bash setup-cuda.sh
+   cd ai-voice-cloning/bash setup-cuda.sh
     ```
     It will start running through all of the python packages needed !!! WAIT WAIT WAIT
 
