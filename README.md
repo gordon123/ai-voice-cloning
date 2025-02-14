@@ -16,8 +16,7 @@ This is a fork of the repo originally located here: https://git.ecker.tech/mrq/a
 
 ## Setup
 
-This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) (Linux only) 
-
+This instruction For setup on [Runpod.io](https://runpod.io?ref=c0v5p0ys) (Linux only), if you don't have runpod account create one and add credit minimum 10USD
 
 #### Alternative Manual Installation
 
@@ -72,9 +71,10 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
     <img width="1060" alt="Screenshot 2025-02-14 at 19 51 50" src="https://github.com/user-attachments/assets/08029d17-4904-4cc8-ae45-7c013f1ccd69" /> <br>
     you should see something like this ```Running on public URL: https://7f6e62958285392788.gradio.live``` copy this link to browser and test to generate some text
     Have fun!!
+   Lastly, delete your pod after you download your training model or any generated files, otherwise Runpod will charge you over time!
+<img width="412" alt="Screenshot 2025-02-14 at 20 36 23" src="https://github.com/user-attachments/assets/8b889afe-77ca-40ce-9c04-475d1ff2f976" />
 
-
-7. **(Optional)** You can opt to install whisperx for training by running ```setup-whipserx.bat```
+8. **(Optional)** You can opt to install whisperx for training by running ```setup-whipserx.bat```
     - Check out the whisperx github page for more details, but it's much faster for longer audio files.  If you're processing one-by-one with an already split dataset, it doesn't improve speeds that much.
 
 ## Instructions
