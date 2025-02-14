@@ -47,16 +47,8 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
     
     bash setup-cuda.sh
     ```
-    It will start running through all of the python packages needed !!! WAIT WAIT WAIT
-
-5. After it finishes, run
-   ```
-   bash start.sh
-   ```
-   and this will start downloading most of the models you'll need.
-    - Some models are downloaded when you first use them.  You'll incur additional downloads during generation and when training (for whisper).  However, once they are finished, you won't ever have to download them again as long as you don't delete them.  They are located in the ```models``` folder of the root.
-
-   for sometime it will show this error , hit Ctrl+ C to exist start.sh
+    It will start running through all of the python packages needed !!! WAIT WAIT WAIT <br>
+    For sometime it will show this error , hit Ctrl+ C to exist <br>
     ```
     import tkinter as tk
     ModuleNotFoundError: No module named 'tkinter'
@@ -67,6 +59,15 @@ git clone https://github.com/gordon123/ai-voice-cloning.git
     apt-get update
     apt-get install python3.11-tk
     ```
+
+6. After it finishes, run
+   ```
+   bash start.sh
+   ```
+   and this will start downloading most of the models you'll need.
+    - Some models are downloaded when you first use them.  You'll incur additional downloads during generation and when training (for whisper).  However, once they are finished, you won't ever have to download them again as long as you don't delete them.  They are located in the ```models``` folder of the root.
+
+
     now ```bash run start.sh``` again <br>
     <img width="1060" alt="Screenshot 2025-02-14 at 19 51 50" src="https://github.com/user-attachments/assets/08029d17-4904-4cc8-ae45-7c013f1ccd69" /> <br>
     you should see something like this ```Running on public URL: https://7f6e62958285392788.gradio.live``` copy this link to browser and test to generate some text
